@@ -23,5 +23,5 @@ if ($text == '/start'){
 	);
 	
 	$msgtext = "به ربات دفتر پیشخوان خاکستری خوش آمدید".PHP_EOL."چه کاری می تونم براتون انجام بدم؟";
-	$telegram -> sendMessage2($userid , $text , $options);
+	$telegram -> sendMessage2($userid , $msgtext , $options);
 }
