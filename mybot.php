@@ -1,6 +1,6 @@
 <?php
 
-$token = "1476182121:AAGC6nCqPVL2j-LA4IPYjjBFWfEQbI9mtFg";
+$token = "1492469866:AAGpqo7Owe2bRF7NCFtlC4g5hv0DSjbyiP8";
 
 $json = file_get_contents('php://input');
 $telegram = urldecode ($json);
